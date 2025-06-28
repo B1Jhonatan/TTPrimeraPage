@@ -1,8 +1,13 @@
+.contain {
+  width: 80%;
+  height: 100%;
+}
+
 .tittlePage {
   display: block;
   height: 50px;
   align-content: center;
-  padding-left: 50px;
+  padding-left: 20px;
 }
 
 .containPage {

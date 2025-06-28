@@ -6,7 +6,7 @@ import style from "./pageDesing001.module.css";
 
 const PageDesing001 = () => {
   return (
-    <>
+    <div className={style.contain}>
       <TitleComponent tittle="404 not found" css={style.tittlePage} />
       <div className={style.containPage}>
         <ImageComponent
@@ -25,7 +25,7 @@ const PageDesing001 = () => {
           />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

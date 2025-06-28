@@ -8,7 +8,7 @@ import PageDesing003 from "./component/pages/pageDesing003/PageDesing003.jsx";
 
 function App() {
   return (
-    <div>
+    <div className="containBody">
       <HeaderComponent />
       <Routes>
         <Route path="/" element={<HomeComponent />} />

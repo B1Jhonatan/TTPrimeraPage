@@ -7,7 +7,7 @@ const HeaderComponent = () => {
       <div>
         <h1>Trabajo Talento Tech</h1>
       </div>
-      <div className={style.navContain}>
+      <div>
         <NavBar linkPage="" nombreElemento="Home" />
         <NavBar linkPage="desing001" nombreElemento="Desing001" />
         <NavBar linkPage="desing002" nombreElemento="Desing002" />
