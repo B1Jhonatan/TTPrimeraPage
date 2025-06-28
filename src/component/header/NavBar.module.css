@@ -1,0 +1,11 @@
+.NavBar {
+  padding: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+.NavBar:hover {
+  background-color: black;
+  color: white;
+}

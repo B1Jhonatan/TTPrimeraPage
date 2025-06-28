@@ -1,7 +1,7 @@
-const ImageComponent = ({ nombre }) => {
+const ImageComponent = ({ linkImg, nombre, css }) => {
   return (
     <div>
-      <img src="" alt={nombre} />
+      <img src={linkImg} alt={nombre} className={css} />
     </div>
   );
 };
