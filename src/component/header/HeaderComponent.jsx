@@ -9,10 +9,13 @@ const HeaderComponent = () => {
       </div>
       <div>
         <NavBar linkPage="" nombreElemento="Home" />
-        <NavBar linkPage="desing001" nombreElemento="Desing001" />
-        <NavBar linkPage="desing002" nombreElemento="Desing002" />
-        <NavBar linkPage="desing003" nombreElemento="Desing003" />
-        <NavBar linkPage="desing004" nombreElemento="Desing004" />
+        <NavBar linkPage="design001" nombreElemento="Design 001" />
+        <NavBar linkPage="design002" nombreElemento="Design 002" />
+        <NavBar linkPage="design003" nombreElemento="Design 003" />
+        <NavBar linkPage="design004" nombreElemento="Design 004" />
+        <NavBar linkPage="repeat002" nombreElemento="Design repeat 002" />
+        <NavBar linkPage="repeat003" nombreElemento="Design repeat 003" />
+        <NavBar linkPage="repeat004" nombreElemento="Design repeat 004" />
       </div>
     </div>
   );
