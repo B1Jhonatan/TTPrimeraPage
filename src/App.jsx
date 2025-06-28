@@ -4,6 +4,7 @@ import HeaderComponent from "./component/header/HeaderComponent.jsx";
 import HomeComponent from "./component/pages/home/HomeComponent.jsx";
 import PageDesing001 from "./component/pages/pageDesing001/PageDesing001.jsx";
 import PageDesing002 from "./component/pages/pageDesing002/PageDesing002.jsx";
+import PageDesing003 from "./component/pages/pageDesing003/PageDesing003.jsx";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<HomeComponent />} />
         <Route path="/desing001" element={<PageDesing001 />} />
         <Route path="/desing002" element={<PageDesing002 />} />
+        <Route path="/desing003" element={<PageDesing003 />} />
       </Routes>
     </div>
   );

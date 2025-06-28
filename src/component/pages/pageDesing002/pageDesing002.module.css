@@ -3,7 +3,7 @@
   border-radius: 10px;
   text-align: center;
   padding: 20px;
-  width: 25vw;
+  width: 300px;
   margin: auto;
   margin-top: 20vh;
 }
@@ -46,7 +46,7 @@
 }
 
 .botones {
-  width: 12vw;
+  width: 135px;
   height: 40px;
   border: 2px solid purple;
   background-color: white;
@@ -58,4 +58,8 @@
 .botones:hover {
   background-color: purple;
   color: white;
+}
+
+.tituloPerf {
+  color: purple;
 }

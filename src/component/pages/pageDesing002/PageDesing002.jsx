@@ -15,7 +15,7 @@ const PageDesing002 = () => {
           name="iConstructor"
           css={style.imgPicture}
         />
-        <TitleComponent tittle="Jhonatan Jaimes" css="" />
+        <TitleComponent tittle="Jhonatan Jaimes" css={style.tituloPerf} />
         <StartsComponent
           cantidad={5}
           css={style.starsContain}
