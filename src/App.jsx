@@ -8,6 +8,7 @@ import PageDesing003 from "./component/pages/pageDesing003/PageDesing003.jsx";
 import PageDesing004 from "./component/pages/pageDesing004/PageDesing004.jsx";
 import PageRepeat002 from "./component/pages/pageRepeat002/PageRepeat002.jsx";
 import PageRepeat003 from "./component/pages/pageRepeat003/PageRepeat003.jsx";
+import PageRepeat004 from "./component/pages/pageRepeat004/PageRepeat004.jsx";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/design004" element={<PageDesing004 />} />
         <Route path="/repeat002" element={<PageRepeat002 />} />
         <Route path="/repeat003" element={<PageRepeat003 />} />
+        <Route path="/repeat004" element={<PageRepeat004 />} />
       </Routes>
     </div>
   );
