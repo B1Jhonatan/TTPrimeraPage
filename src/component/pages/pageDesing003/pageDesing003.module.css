@@ -1,3 +1,8 @@
+.sContain {
+  width: 80%;
+  height: 100vh;
+}
+
 .contain {
   width: 300px;
   padding: 20px;
