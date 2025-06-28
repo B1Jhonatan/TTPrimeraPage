@@ -1,0 +1,27 @@
+.tittlePage {
+  display: block;
+  height: 50px;
+  align-content: center;
+  padding-left: 50px;
+}
+
+.containPage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+.imagen {
+  width: 400px;
+  height: 400px;
+}
+
+.containText {
+  width: 350px;
+}
+
+.tituloFound {
+  margin-bottom: 20px;
+}
