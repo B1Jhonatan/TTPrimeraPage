@@ -10,7 +10,7 @@ const PageDesing001 = () => {
       <TitleComponent tittle="404 not found" css={style.tittlePage} />
       <div className={style.containPage}>
         <ImageComponent
-          linkImg="../public/e-pajaros.png"
+          linkImg="/e-pajaros.png"
           nombre="espanta-pajaros"
           css={style.imagen}
         />

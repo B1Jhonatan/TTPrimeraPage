@@ -7,7 +7,7 @@ const StartsComponent = ({ cantidad, css, cssIcon }) => {
       {Array.from({ length: cantidad }).map((_, index) => (
         <ImageComponent
           key={index}
-          linkImg="../public/star.png"
+          linkImg="/star.png"
           nombre={"Star" + index}
           css={cssIcon}
         />

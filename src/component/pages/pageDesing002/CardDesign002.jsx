@@ -9,7 +9,7 @@ const CardDesign002 = () => {
   return (
     <div className={style.contain}>
       <ImageComponent
-        linkImg="../public/c-constructor.png"
+        linkImg="/c-constructor.png"
         name="iConstructor"
         css={style.imgPicture}
       />

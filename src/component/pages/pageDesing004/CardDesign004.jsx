@@ -9,11 +9,7 @@ const CardDesign004 = () => {
     <div>
       <div className={styles.contain}>
         <div className={styles.conImg}>
-          <ImageComponent
-            linkImg="../public/qr.png"
-            nombre="qr"
-            css={styles.img}
-          />
+          <ImageComponent linkImg="/qr.png" nombre="qr" css={styles.img} />
         </div>
         <TitleComponent
           tittle="Improve your front-end skills by building projects"
