@@ -1,6 +1,6 @@
 import React from "react";
 import CardDesign004 from "../pageDesing004/CardDesign004";
-import styles from "./PageRepeat004.module.css";
+import styles from "./pageRepeat004.module.css";
 
 const PageRepeat004 = () => {
   const cantidad = 10;

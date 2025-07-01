@@ -1,5 +1,4 @@
-import React from "react";
-import styles from "./PageDesing004.module.css";
+import styles from "./pageDesing004.module.css";
 import CardDesign004 from "./CardDesign004";
 
 const PageDesing004 = () => {
