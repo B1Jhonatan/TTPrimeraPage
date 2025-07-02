@@ -16,6 +16,7 @@ const HeaderComponent = () => {
         <NavBar linkPage="repeat002" nombreElemento="Design repeat 002" />
         <NavBar linkPage="repeat003" nombreElemento="Design repeat 003" />
         <NavBar linkPage="repeat004" nombreElemento="Design repeat 004" />
+        <NavBar linkPage="hate-onion" nombreElemento="Onion hate" />
       </div>
     </div>
   );
