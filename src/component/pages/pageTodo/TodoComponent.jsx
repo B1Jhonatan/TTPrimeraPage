@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FormComponent } from "./FormComponent";
 import { ArrayTodoComponent } from "./ArrayTodoComponent";
+import styles from "./ArrayTodo.module.css";
 
 export const TodoComponent = () => {
   const [arrayTodo, setArrayTodo] = useState([]);
@@ -8,16 +9,24 @@ export const TodoComponent = () => {
 
   const handleChangeTodo = (e) => {
     setTodoText(e.target.value);
+    console.log(e.target.value);
   };
 
   const handleCreateTodo = () => {
+    if (todoText === "") {
+      return;
+    }
+
     const newTodo = {
       id: Date.now(),
       text: todoText,
       completed: false,
     };
+
+    console.log(newTodo);
     setArrayTodo([...arrayTodo, newTodo]);
     setTodoText("");
+    console.log(arrayTodo);
   };
 
   const handleReadTodo = () => {
@@ -25,7 +34,7 @@ export const TodoComponent = () => {
     console.log(arrayTodo);
   };
 
-  const hanbleUpdateTodo = (id, texto) => {};
+  //const hanbleUpdateTodo = (id, texto) => {};
 
   const handleDeleteTodo = (id) => {
     const filtrado = arrayTodo.filter((tarea) => tarea.id !== id);
@@ -44,11 +53,18 @@ export const TodoComponent = () => {
         handleReadTodo={handleReadTodo}
         handleSubmit={handleSubmit}
         handleChangeTodo={handleChangeTodo}
+        className={styles.formDiv}
       />
-      <ArrayTodoComponent
-        arrayTodo={arrayTodo}
-        handleDeleteTodo={handleDeleteTodo}
-      />
+      <div className={styles.cards}>
+        {arrayTodo.map((task) => {
+          return (
+            <ArrayTodoComponent
+              task={task}
+              handleDeleteTodo={handleDeleteTodo}
+            />
+          );
+        })}
+      </div>
     </div>
   );
 };

@@ -1,0 +1,75 @@
+.pageContain {
+  width: 100%;
+}
+
+.formDiv {
+  width: 80vw;
+  height: 10vh;
+  text-align: center;
+  align-content: center;
+}
+
+.cardTask {
+  max-width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 2px solid gray;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.cardParra {
+  min-width: 200px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  max-width: 200px;
+}
+
+.cardInput {
+  width: 50%;
+  padding: 5px;
+  margin-right: 10px;
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+
+.cards {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+
+.cardBotonNormal {
+  width: 95px;
+  height: 30px;
+  margin-top: 10px;
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.cardBotonEliminar {
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.cardBotonNormal:hover {
+  background-color: rgba(0, 0, 255, 0.8);
+}
+
+.cardBotonEliminar:hover {
+  background-color: rgba(255, 0, 0, 0.8);
+}

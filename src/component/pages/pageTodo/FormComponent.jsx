@@ -1,26 +1,29 @@
-import React from "react";
 import { InputTodoComponent } from "./InputTodoComponent";
 import { BotonComponent } from "./BotonComponent";
+import styles from "./ArrayTodo.module.css";
 
 export const FormComponent = ({
   todoText,
   handleCreateTodo,
   handleChangeTodo,
   handleSubmit,
+  className,
 }) => {
   return (
-    <div>
+    <div className={className}>
       <form onSubmit={handleSubmit}>
-        <div>
-          <InputTodoComponent
-            value={todoText}
-            onChange={handleChangeTodo}
-            placeholder={"Ingrese tarea"}
-          />
-        </div>
-        <div>
-          <BotonComponent name={"Agregar"} onClick={handleCreateTodo} />
-        </div>
+        <InputTodoComponent
+          value={todoText}
+          onChange={handleChangeTodo}
+          placeholder={"Ingrese tarea"}
+          className={styles.cardInput}
+        />
+
+        <BotonComponent
+          name={"Agregar"}
+          onClick={handleCreateTodo}
+          css={styles.cardBotonNormal}
+        />
       </form>
     </div>
   );
