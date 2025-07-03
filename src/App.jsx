@@ -10,6 +10,7 @@ import PageRepeat002 from "./component/pages/pageRepeat002/PageRepeat002.jsx";
 import PageRepeat003 from "./component/pages/pageRepeat003/PageRepeat003.jsx";
 import PageRepeat004 from "./component/pages/pageRepeat004/PageRepeat004.jsx";
 import { OnionHaterComponent } from "./component/pages/page-cebolla/OnionHaterComponent.jsx";
+import { TodoComponent } from "./component/pages/pageTodo/TodoComponent.jsx";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/repeat003" element={<PageRepeat003 />} />
         <Route path="/repeat004" element={<PageRepeat004 />} />
         <Route path="/hate-onion" element={<OnionHaterComponent />} />
+        <Route path="/todo" element={<TodoComponent />} />
       </Routes>
     </div>
   );

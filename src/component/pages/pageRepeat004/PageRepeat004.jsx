@@ -10,18 +10,26 @@ const PageRepeat004 = () => {
     setCantidad(valor);
   };
 
+  const handleChange = (e) => {
+    const num = e.target.value;
+    setCantidad(num);
+  };
+
   return (
-    <div className={styles.contain}>
-      {Array.from({ length: cantidad }).map((_, index) => (
-        <CardDesign004 key={index} />
-      ))}
+    <div>
       <div>
         <input
           id="iCantidad"
           type="Text"
           placeholder="Cuantos marcadores quiere"
+          onChange={handleChange}
         />
         <button onClick={handleClick}>Valor</button>
+      </div>
+      <div className={styles.contain}>
+        {Array.from({ length: cantidad }).map((_, index) => (
+          <CardDesign004 key={index} />
+        ))}
       </div>
     </div>
   );
