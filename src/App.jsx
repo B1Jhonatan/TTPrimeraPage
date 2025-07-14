@@ -11,6 +11,10 @@ import PageRepeat003 from "./component/pages/pageRepeat003/PageRepeat003.jsx";
 import PageRepeat004 from "./component/pages/pageRepeat004/PageRepeat004.jsx";
 import { OnionHaterComponent } from "./component/pages/page-cebolla/OnionHaterComponent.jsx";
 import { TodoComponent } from "./component/pages/pageTodo/TodoComponent.jsx";
+import PageZoo from "./component/pages/page-zoo/PageZoo.jsx";
+import PageGabinete from "./component/pages/page-gabinete/PageGabinete.jsx";
+import PageVentas from "./component/pages/page-ventas/PageVentas.jsx";
+import PageUniversidad from "./component/pages/page-universidad/PageUniversidad.jsx";
 
 function App() {
   return (
@@ -26,6 +30,10 @@ function App() {
         <Route path="/repeat003" element={<PageRepeat003 />} />
         <Route path="/repeat004" element={<PageRepeat004 />} />
         <Route path="/hate-onion" element={<OnionHaterComponent />} />
+        <Route path="/zoologico" element={<PageZoo />} />
+        <Route path="/gabinete" element={<PageGabinete />} />
+        <Route path="/ventas" element={<PageVentas />} />
+        <Route path="/universidad" element={<PageUniversidad />} />
         <Route path="/todo" element={<TodoComponent />} />
       </Routes>
     </div>
