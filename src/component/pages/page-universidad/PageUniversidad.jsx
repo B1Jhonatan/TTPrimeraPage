@@ -3,7 +3,7 @@ import styles from "./Universidad.module.css";
 
 const PageUniversidad = () => {
   return (
-    <div>
+    <div className={styles.page}>
       <img src="/Universidad.png" alt="uni" className={styles.img} />
     </div>
   );

@@ -3,7 +3,7 @@ import styles from "./Zoo.module.css";
 
 const PageZoo = () => {
   return (
-    <div>
+    <div className={styles.page}>
       <img src="/Zoologico.png" alt="zoo" className={styles.img} />
     </div>
   );

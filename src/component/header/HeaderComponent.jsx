@@ -5,7 +5,7 @@ const HeaderComponent = () => {
   return (
     <div className={style.contain}>
       <div>
-        <h1>Trabajo Talento Tech</h1>
+        <h1 className={style.nav}>Navegacion</h1>
       </div>
       <div>
         <NavBar linkPage="" nombreElemento="Home" />

@@ -1,4 +1,10 @@
-img {
-  width: 100%;
+.page {
+  width: 80%;
   height: 100vh;
+  align-content: center;
+}
+
+.img {
+  width: 78vw;
+  height: 26vw;
 }

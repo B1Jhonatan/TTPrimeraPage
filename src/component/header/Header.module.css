@@ -1,5 +1,9 @@
 .contain {
   width: 20%;
   align-items: center;
-  background-color: rgb(250, 245, 240);
+  background-color: rgb(222, 222, 222);
+}
+
+.nav {
+  padding: 10px;
 }
