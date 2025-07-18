@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import CreateSqlComponent from "./pages-sql/CreateSqlComponent";
 import SqlCreateComponent from "./page-creacion/SqlCreateComponent";
 import SqlInsertComponent from "./page-insert/SqlInsertComponent";
+import SqlReadComponent from "./page-leer/SqlReadComponent";
 
 const SqlPage = () => {
   return (
@@ -12,6 +13,7 @@ const SqlPage = () => {
         <Route path="/esquema" element={<CreateSqlComponent />} />
         <Route path="/crear" element={<SqlCreateComponent />} />
         <Route path="/insercion" element={<SqlInsertComponent />} />
+        <Route path="/leer" element={<SqlReadComponent />} />
       </Routes>
     </div>
   );

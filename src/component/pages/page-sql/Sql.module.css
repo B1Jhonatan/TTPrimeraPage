@@ -7,3 +7,18 @@
   gap: 20px;
   color: #09f;
 }
+
+.imgRead {
+  width: 40vw;
+  min-width: 300px;
+  padding: 10px;
+  box-shadow: 1px 1px 3px gray;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.imgI {
+  width: 100%;
+  min-width: 300px;
+  height: auto;
+}
