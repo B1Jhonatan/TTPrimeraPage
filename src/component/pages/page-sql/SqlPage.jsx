@@ -1,4 +1,3 @@
-import React from "react";
 import HeadreSqlComponent from "../../header/HeadreSqlComponent";
 import { Route, Routes } from "react-router-dom";
 import CreateSqlComponent from "./pages-sql/CreateSqlComponent";

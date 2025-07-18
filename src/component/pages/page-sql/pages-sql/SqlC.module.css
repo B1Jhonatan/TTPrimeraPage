@@ -1,0 +1,20 @@
+.contain {
+  width: 78.5vw;
+  height: auto;
+  align-content: center;
+}
+
+.descripcion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #09f;
+  background-color: black;
+}
+
+.text {
+  padding: 5px;
+  min-width: 200px;
+  text-align: center;
+}

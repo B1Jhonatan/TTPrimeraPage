@@ -21,7 +21,7 @@ const HeaderComponent = () => {
         <NavBar linkPage="gabinete" nombreElemento="Gabinete" />
         <NavBar linkPage="ventas" nombreElemento="Ventas" />
         <NavBar linkPage="universidad" nombreElemento="Universidad" />
-        <NavBar linkPage="sql" nombreElemento="SQL" />
+        <NavBar linkPage="sql/esquema" nombreElemento="SQL" />
         <NavBar linkPage="todo" nombreElemento="Todo" />
       </div>
     </div>
