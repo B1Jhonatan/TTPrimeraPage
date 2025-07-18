@@ -3,10 +3,10 @@
   padding: 10px;
   text-decoration: none;
   cursor: pointer;
-  color: black;
+  color: white;
 }
 
 .NavBar:hover {
-  background-color: black;
-  color: white;
+  background-color: #eee;
+  color: inherit;
 }

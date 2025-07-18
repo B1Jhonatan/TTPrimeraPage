@@ -1,9 +1,22 @@
 .contain {
   width: 20%;
+  padding-left: 25px;
   align-items: center;
-  background-color: rgb(222, 222, 222);
+  background-color: rgb(10, 10, 10);
+  min-height: 100vh;
 }
 
 .nav {
   padding: 10px;
+  color: #09f;
+}
+
+.containSql {
+  background-color: rgb(10, 10, 10);
+  width: 78.5vw;
+  min-height: 57px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
 }

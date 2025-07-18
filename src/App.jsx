@@ -15,6 +15,7 @@ import PageZoo from "./component/pages/page-zoo/PageZoo.jsx";
 import PageGabinete from "./component/pages/page-gabinete/PageGabinete.jsx";
 import PageVentas from "./component/pages/page-ventas/PageVentas.jsx";
 import PageUniversidad from "./component/pages/page-universidad/PageUniversidad.jsx";
+import SqlPage from "./component/pages/page-sql/SqlPage.jsx";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Route path="/gabinete" element={<PageGabinete />} />
         <Route path="/ventas" element={<PageVentas />} />
         <Route path="/universidad" element={<PageUniversidad />} />
+        <Route path="/sql/*" element={<SqlPage />} />
         <Route path="/todo" element={<TodoComponent />} />
       </Routes>
     </div>
