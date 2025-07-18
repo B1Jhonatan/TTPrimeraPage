@@ -1,0 +1,12 @@
+.cardImg {
+  width: 350px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px gray;
+  text-align: center;
+}
+
+.img {
+  width: 350px;
+  height: auto;
+}

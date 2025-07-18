@@ -6,11 +6,11 @@ const HeadreSqlComponent = () => {
   return (
     <section className={styles.containSql}>
       <NavBar linkPage="sql/esquema" nombreElemento="Esquema" />
-      <NavBar linkPage="crear" nombreElemento="Creacion schema" />
-      <NavBar linkPage="insercion" nombreElemento="Insertar datos" />
-      <NavBar linkPage="leer" nombreElemento="Leer datos" />
-      <NavBar linkPage="actualizar" nombreElemento="Actualizar datos" />
-      <NavBar linkPage="borrar" nombreElemento="Borrar datos" />
+      <NavBar linkPage="sql/crear" nombreElemento="Creacion schema" />
+      <NavBar linkPage="sql/insercion" nombreElemento="Insertar datos" />
+      <NavBar linkPage="sql/leer" nombreElemento="Leer datos" />
+      <NavBar linkPage="sql/actualizar" nombreElemento="Actualizar datos" />
+      <NavBar linkPage="sql/borrar" nombreElemento="Borrar datos" />
     </section>
   );
 };
