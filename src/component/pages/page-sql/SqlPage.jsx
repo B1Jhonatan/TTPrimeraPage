@@ -5,6 +5,7 @@ import SqlCreateComponent from "./page-creacion/SqlCreateComponent";
 import SqlInsertComponent from "./page-insert/SqlInsertComponent";
 import SqlReadComponent from "./page-leer/SqlReadComponent";
 import SqlUpdateComponent from "./page-update/SqlUpdateComponent";
+import { SqlDeleteComponent } from "./page-delete/SqlDeleteComponent";
 
 const SqlPage = () => {
   return (
@@ -16,6 +17,7 @@ const SqlPage = () => {
         <Route path="/insercion" element={<SqlInsertComponent />} />
         <Route path="/leer" element={<SqlReadComponent />} />
         <Route path="/actualizar" element={<SqlUpdateComponent />} />
+        <Route path="/borrar" element={<SqlDeleteComponent />} />
       </Routes>
     </div>
   );
