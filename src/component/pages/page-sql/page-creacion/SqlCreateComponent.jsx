@@ -1,6 +1,6 @@
 import React from "react";
 import CardImgComponent from "../../../image/CardImgComponent";
-import styles from "./SqlCreate.module.css";
+import styles from "../Sql.module.css";
 
 const SqlCreateComponent = () => {
   return (
